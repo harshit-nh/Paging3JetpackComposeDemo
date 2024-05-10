@@ -7,6 +7,7 @@ import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
 
+@InstallIn
 interface UnsplashApi {
 
     @Headers("Authorization: Client-ID ${BuildConfig.API_KEY}")
